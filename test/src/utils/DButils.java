@@ -27,6 +27,7 @@ public class DButils {
         }
     }
 
+    //执行增删改的sql语句 
     public int doUpdate(String Sqls) {
         getConnect();
         int i = 0;
